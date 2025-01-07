@@ -1,0 +1,10 @@
+El archivo package.json es el centro de cualquier proyecto Node.js o paquete npm. 
+Almacena información sobre tu proyecto. 
+Está formado por un único objeto JSON donde se guarda la información en 
+pares clave-valor. Solo hay dos campos obligatorios: name y version, 
+pero es buena práctica proporcionar información adicional.
+
+Puedes crear el archivo package.json desde la terminal usando el comando npm init. 
+Esto ejecutará una configuración guiada. 
+Usando npm init con la bandera -y generará el archivo sin tener que responder 
+ninguna pregunta, npm init -y.
